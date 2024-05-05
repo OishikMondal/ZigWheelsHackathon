@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="email" value="abcdefgh"/>
+    <parameter name="manufacturer" value="Honda"/>
+    <classes>
+      <class name="TestCases.TestCase">
+        <methods>
+          <include name="invalidLogIn" invocation-numbers="0"/>
+          <include name="setUpBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TestCase -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="Edge"/>
+    <parameter name="email" value="abcdefgh"/>
+    <parameter name="manufacturer" value="Honda"/>
+    <classes>
+      <class name="TestCases.TestCase">
+        <methods>
+          <include name="invalidLogIn" invocation-numbers="0"/>
+          <include name="setUpBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.TestCase -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

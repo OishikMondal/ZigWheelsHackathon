@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="18" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-04T21:51:48 IST" name="Suite" finished-at="2024-05-04T21:54:17 IST" duration-ms="148233">
+    <groups>
+    </groups>
+    <test started-at="2024-05-04T21:51:48 IST" name="ChromeTest" finished-at="2024-05-04T21:52:56 IST" duration-ms="67608">
+      <class name="TestCases.TestCase">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:TestCases.TestCase@5386659f]" started-at="2024-05-04T21:51:49 IST" name="setUpBrowser" finished-at="2024-05-04T21:51:57 IST" duration-ms="8716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="goToUpcomingBikes()[pri:1, instance:TestCases.TestCase@5386659f]" started-at="2024-05-04T21:51:57 IST" name="goToUpcomingBikes" finished-at="2024-05-04T21:52:04 IST" duration-ms="6425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUpcomingBikes -->
+        <test-method signature="selectHonda(java.lang.String)[pri:2, instance:TestCases.TestCase@5386659f]" started-at="2024-05-04T21:52:04 IST" name="selectHonda" finished-at="2024-05-04T21:52:09 IST" duration-ms="4964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Honda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHonda -->
+        <test-method signature="showBikes()[pri:3, instance:TestCases.TestCase@5386659f]" started-at="2024-05-04T21:52:09 IST" name="showBikes" finished-at="2024-05-04T21:52:13 IST" duration-ms="4309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showBikes -->
+        <test-method signature="fetchBikeDetails()[pri:4, instance:TestCases.TestCase@5386659f]" started-at="2024-05-04T21:52:13 IST" name="fetchBikeDetails" finished-at="2024-05-04T21:52:21 IST" duration-ms="7952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchBikeDetails -->
+        <test-method signature="moveToUsedCars()[pri:5, instance:TestCases.TestCase@5386659f]" started-at="2024-05-04T21:52:21 IST" name="moveToUsedCars" finished-at="2024-05-04T21:52:33 IST" duration-ms="12217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToUsedCars -->
+        <test-method signature="findTopCars()[pri:6, instance:TestCases.TestCase@5386659f]" started-at="2024-05-04T21:52:33 IST" name="findTopCars" finished-at="2024-05-04T21:52:37 IST" duration-ms="3397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTopCars -->
+        <test-method signature="fetchTopCars()[pri:7, instance:TestCases.TestCase@5386659f]" started-at="2024-05-04T21:52:37 IST" name="fetchTopCars" finished-at="2024-05-04T21:52:37 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchTopCars -->
+        <test-method signature="backToHomePage()[pri:8, instance:TestCases.TestCase@5386659f]" started-at="2024-05-04T21:52:37 IST" name="backToHomePage" finished-at="2024-05-04T21:52:40 IST" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="logIn()[pri:9, instance:TestCases.TestCase@5386659f]" started-at="2024-05-04T21:52:40 IST" name="logIn" finished-at="2024-05-04T21:52:47 IST" duration-ms="7469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="invalidLogIn(java.lang.String)[pri:10, instance:TestCases.TestCase@5386659f]" started-at="2024-05-04T21:52:47 IST" name="invalidLogIn" finished-at="2024-05-04T21:52:52 IST" duration-ms="4240" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefgh]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="VfPpkd-RLmnJb"></div> is not clickable at point (427, 486). Other element would receive the click: <span jsname="V67aGc" class="VfPpkd-vQzf8d">...</span>
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66d6b7cc5847a775998f6f04cf271ecf, clickElement {id=63402732D4288555CD7946CF223BF836_element_17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61011/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (66d6b7cc5847a775998f6f04cf271ecf)] -> xpath: //*[@id="identifierNext"]/div/button/div[3]]
+Session ID: 66d6b7cc5847a775998f6f04cf271ecf]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="VfPpkd-RLmnJb"></div> is not clickable at point (427, 486). Other element would receive the click: <span jsname="V67aGc" class="VfPpkd-vQzf8d">...</span>
+  (Session info: chrome=121.0.6167.86)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66d6b7cc5847a775998f6f04cf271ecf, clickElement {id=63402732D4288555CD7946CF223BF836_element_17}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61011}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61011/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (66d6b7cc5847a775998f6f04cf271ecf)] -> xpath: //*[@id="identifierNext"]/div/button/div[3]]
+Session ID: 66d6b7cc5847a775998f6f04cf271ecf
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at PageObjects.GoogleLogin.putEmail(GoogleLogin.java:48)
+at TestCases.TestCase.invalidLogIn(TestCase.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestCase@5386659f]" started-at="2024-05-04T21:52:52 IST" name="tearDown" finished-at="2024-05-04T21:52:56 IST" duration-ms="4249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TestCase -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-05-04T21:52:57 IST" name="EdgeTest" finished-at="2024-05-04T21:54:17 IST" duration-ms="79983">
+      <class name="TestCases.TestCase">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:TestCases.TestCase@4201c465]" started-at="2024-05-04T21:52:57 IST" name="setUpBrowser" finished-at="2024-05-04T21:53:12 IST" duration-ms="15240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="goToUpcomingBikes()[pri:1, instance:TestCases.TestCase@4201c465]" started-at="2024-05-04T21:53:12 IST" name="goToUpcomingBikes" finished-at="2024-05-04T21:53:19 IST" duration-ms="6764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToUpcomingBikes -->
+        <test-method signature="selectHonda(java.lang.String)[pri:2, instance:TestCases.TestCase@4201c465]" started-at="2024-05-04T21:53:19 IST" name="selectHonda" finished-at="2024-05-04T21:53:24 IST" duration-ms="5883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Honda]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHonda -->
+        <test-method signature="showBikes()[pri:3, instance:TestCases.TestCase@4201c465]" started-at="2024-05-04T21:53:24 IST" name="showBikes" finished-at="2024-05-04T21:53:29 IST" duration-ms="4542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showBikes -->
+        <test-method signature="fetchBikeDetails()[pri:4, instance:TestCases.TestCase@4201c465]" started-at="2024-05-04T21:53:29 IST" name="fetchBikeDetails" finished-at="2024-05-04T21:53:37 IST" duration-ms="7663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchBikeDetails -->
+        <test-method signature="moveToUsedCars()[pri:5, instance:TestCases.TestCase@4201c465]" started-at="2024-05-04T21:53:37 IST" name="moveToUsedCars" finished-at="2024-05-04T21:53:50 IST" duration-ms="12910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToUsedCars -->
+        <test-method signature="findTopCars()[pri:6, instance:TestCases.TestCase@4201c465]" started-at="2024-05-04T21:53:50 IST" name="findTopCars" finished-at="2024-05-04T21:53:53 IST" duration-ms="3363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTopCars -->
+        <test-method signature="fetchTopCars()[pri:7, instance:TestCases.TestCase@4201c465]" started-at="2024-05-04T21:53:53 IST" name="fetchTopCars" finished-at="2024-05-04T21:53:53 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchTopCars -->
+        <test-method signature="backToHomePage()[pri:8, instance:TestCases.TestCase@4201c465]" started-at="2024-05-04T21:53:53 IST" name="backToHomePage" finished-at="2024-05-04T21:53:59 IST" duration-ms="5750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backToHomePage -->
+        <test-method signature="logIn()[pri:9, instance:TestCases.TestCase@4201c465]" started-at="2024-05-04T21:53:59 IST" name="logIn" finished-at="2024-05-04T21:54:07 IST" duration-ms="8099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="invalidLogIn(java.lang.String)[pri:10, instance:TestCases.TestCase@4201c465]" started-at="2024-05-04T21:54:07 IST" name="invalidLogIn" finished-at="2024-05-04T21:54:11 IST" duration-ms="4234" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefgh]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="VfPpkd-RLmnJb"></div> is not clickable at point (422, 483). Other element would receive the click: <span jsname="V67aGc" class="VfPpkd-vQzf8d">...</span>
+  (Session info: MicrosoftEdge=124.0.2478.80)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c20c5c55cce4f2aff6f7c5af296714c1, clickElement {id=f.221F8ECA8E278D2BC663485545D04A92.d.51F5E27F84C4638A9E9DB257A1CA6F49.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61186}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61186/devtoo..., se:cdpVersion: 124.0.2478.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (c20c5c55cce4f2aff6f7c5af296714c1)] -> xpath: //*[@id="identifierNext"]/div/button/div[3]]
+Session ID: c20c5c55cce4f2aff6f7c5af296714c1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="VfPpkd-RLmnJb"></div> is not clickable at point (422, 483). Other element would receive the click: <span jsname="V67aGc" class="VfPpkd-vQzf8d">...</span>
+  (Session info: MicrosoftEdge=124.0.2478.80)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c20c5c55cce4f2aff6f7c5af296714c1, clickElement {id=f.221F8ECA8E278D2BC663485545D04A92.d.51F5E27F84C4638A9E9DB257A1CA6F49.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61186}, msedge: {msedgedriverVersion: 124.0.2478.80 (b05b378d1705..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61186/devtoo..., se:cdpVersion: 124.0.2478.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (c20c5c55cce4f2aff6f7c5af296714c1)] -> xpath: //*[@id="identifierNext"]/div/button/div[3]]
+Session ID: c20c5c55cce4f2aff6f7c5af296714c1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at PageObjects.GoogleLogin.putEmail(GoogleLogin.java:48)
+at TestCases.TestCase.invalidLogIn(TestCase.java:98)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestCase@4201c465]" started-at="2024-05-04T21:54:11 IST" name="tearDown" finished-at="2024-05-04T21:54:17 IST" duration-ms="5161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TestCase -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
